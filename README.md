@@ -47,4 +47,4 @@ Los sitios desarrollados para una empresa de turismo tienen su propio repositori
 
 ## Créditos
 
-- Diseño y desarrollo: **Marco Adrián Padilla Triviño** ([@Adrizzx](https://github.com/Adrizzx)).
+- Diseño y desarrollo: **Marco Adrian Padilla Triviño** ([@Adrizzx](https://github.com/Adrizzx)).
