@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Wild Camp - Aventura en la Naturaleza</title>
+  <meta name="description" content="Vive la experiencia definitiva de camping en medio de la naturaleza salvaje. Desconéctate de la rutina y reconéctate contigo mismo.">
+  <meta name="keywords" content="Wild Camp, camping, naturaleza, aventura, montaña, senderismo, fogata, tiendas">
+
+  <!-- Favicons -->
+  <link href="public/images/tent-logo.jpg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <a href="#hero" class="logo d-flex align-items-center me-auto me-xl-0">
+        <img src="public/images/tent-logo.jpg" alt="Logo" class="logo-img">
+        <h1 class="sitename">Wild Camp</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Inicio</a></li>
+          <li><a href="#about">Nosotros</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#camping">Campamentos</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+      <div class="container-fluid hero-container" data-aos="fade-up">
+        <div class="row g-0 align-items-center">
+          <div class="col-lg-6 content-col">
+            <div class="content-wrapper">
+              <div class="status-badge">🏕️ Reservas Abiertas</div>
+              <h2>Aventura Salvaje te Espera</h2>
+              <p>Desconéctate del mundo digital y reconéctate con la naturaleza. Vive la experiencia auténtica de camping en paisajes inexplorados, donde cada amanecer es una nueva aventura y cada noche bajo las estrellas es mágica.</p>
+
+              <div class="opening-hours" data-aos="fade-up" data-aos-delay="500">
+                <i class="bi bi-sunrise"></i>
+                <span>Aventuras 24/7</span>
+              </div>
+
+              <div class="btn-group">
+                <a href="#about" class="btn btn-book">Explora Más</a>
+                <a href="#camping" class="btn btn-menu">Ver Campamentos</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 swiper-col">
+            <div class="swiper hero-swiper init-swiper" data-aos="zoom-out" data-aos-delay="100">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 800,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "effect": "fade",
+                  "slidesPerView": 1,
+                  "navigation": {
+                    "nextEl": ".swiper-button-next",
+                    "prevEl": ".swiper-button-prev"
+                  }
+                }
+              </script>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="img-container">
+                    <img src="public/images/mountain-camp.jpg" alt="Campamento en montaña">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="img-container">
+                    <img src="public/images/forest-tent.jpg" alt="Tienda en el bosque">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="img-container">
+                    <img src="public/images/campfire.jpg" alt="Fogata nocturna">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="img-container">
+                    <img src="public/images/lake-camp.jpg" alt="Campamento junto al lago">
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section bg-overlay">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center gy-4">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="about-content">
+              <h3>Nuestra Aventura</h3>
+              <p class="fst-italic">Bienvenidos a Wild Camp, donde cada expedición es una oportunidad de redescubrir la conexión primitiva entre el ser humano y la naturaleza salvaje.</p>
+
+              <p><strong>Nuestra Misión:</strong> Guiar a aventureros valientes hacia experiencias auténticas de camping en entornos naturales vírgenes, proporcionando equipos de calidad y conocimiento experto para vivir la naturaleza de manera responsable y emocionante.</p>
+
+              <p><strong>Nuestra Visión:</strong> Ser la empresa líder en turismo de aventura y camping salvaje, inspirando a las personas a desconectarse de la tecnología y reconectarse con la esencia pura de la naturaleza.</p>
+
+              <p><strong>¿Por qué elegirnos?</strong> Porque no solo ofrecemos camping, sino experiencias transformadoras: guías expertos, equipos premium, ubicaciones secretas, fogatas bajo cielos estrellados, senderismo en rutas inexploradas y la oportunidad de vivir como verdaderos exploradores modernos.</p>
+
+              <div class="chef-signature mt-4">
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    <img src="public/images/guide-avatar.jpg" class="chef-avatar rounded-circle" alt="Guía Experto">
+                  </div>
+                  <div class="col">
+                    <p class="chef-message mb-2">"En cada expedición, no solo acampamos... vivimos aventuras que marcan el alma y despiertan el espíritu salvaje que todos llevamos dentro."</p>
+                    <p class="chef-name">Equipo Wild Camp Explorers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="about-image-wrapper">
+              <img src="public/images/wild-landscape.jpg" class="img-fluid main-image shadow" alt="Paisaje salvaje">
+              
+              <span class="establishment-year d-flex align-items-center justify-content-center text-center">Explora</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5 pt-4 features-section">
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="bi bi-compass"></i>
+              </div>
+              <h4>Expediciones Guiadas</h4>
+              <p>Rutas secretas y senderos inexplorados con guías expertos que conocen cada rincón de la naturaleza salvaje.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="bi bi-fire"></i>
+              </div>
+              <h4>Campamentos Premium</h4>
+              <p>Equipos de alta calidad, tiendas resistentes, fogatas perfectas y todo lo necesario para una aventura épica.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="bi bi-tree"></i>
+              </div>
+              <h4>Naturaleza Virgen</h4>
+              <p>Acceso exclusivo a reservas naturales, bosques primarios y paisajes que pocos humanos han explorado.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="500">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="bi bi-stars"></i>
+              </div>
+              <h4>Noches Estrelladas</h4>
+              <p>Cielos sin contaminación lumínica donde las constelaciones brillan como diamantes sobre tu tienda.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
+            <div class="stats-container">
+              <div class="stat-item">
+                <span class="stat-number">5+</span>
+                <p class="stat-label">Años de expediciones</p>
+              </div>
+
+              <div class="stat-item">
+                <span class="stat-number">15+</span>
+                <p class="stat-label">Aventureros por grupo</p>
+              </div>
+
+              <div class="stat-item">
+                <span class="stat-number">500+</span>
+                <p class="stat-label">Expediciones realizadas</p>
+              </div>
+
+              <div class="stat-item">
+                <span class="stat-number">2000+</span>
+                <p class="stat-label">Aventureros felices</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- /About Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="amenities section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Servicios de Aventura</h2>
+        <p>Descubre todo lo que Wild Camp incluye en tus expediciones para vivir la experiencia salvaje definitiva.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          
+          <!-- Equipos de Camping -->
+          <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="amenity-category">
+              <h4><i class="bi bi-house-gear"></i> Equipos Premium</h4>
+              <div class="amenity-list">
+                <div class="amenity-item">
+                  <i class="bi bi-house"></i>
+                  <span>Tiendas 4 estaciones</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-moon"></i>
+                  <span>Sacos de dormir -15°C</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-vinyl"></i>
+                  <span>Colchonetas aislantes</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-lightbulb"></i>
+                  <span>Linternas tácticas</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Alimentación -->
+          <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="amenity-category">
+              <h4><i class="bi bi-cup-hot"></i> Alimentación Salvaje</h4>
+              <div class="amenity-list">
+                <div class="amenity-item">
+                  <i class="bi bi-fire"></i>
+                  <span>Cocina a leña</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-cup-hot"></i>
+                  <span>Café de montaña</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-basket"></i>
+                  <span>Comida deshidratada</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-droplet"></i>
+                  <span>Purificadores de agua</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-egg-fried"></i>
+                  <span>Utensilios de campaña</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-cup"></i>
+                  <span>Kit de supervivencia</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Actividades -->
+          <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="amenity-category">
+              <h4><i class="bi bi-compass"></i> Actividades</h4>
+              <div class="amenity-list">
+                <div class="amenity-item">
+                  <i class="bi bi-geo-alt"></i>
+                  <span>Senderismo extremo</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-binoculars"></i>
+                  <span>Observación fauna</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-water"></i>
+                  <span>Rafting aventura</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-camera"></i>
+                  <span>Fotografía natural</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-stars"></i>
+                  <span>Astronomía nocturna</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-map"></i>
+                  <span>Orientación y GPS</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Seguridad -->
+          <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="amenity-category">
+              <h4><i class="bi bi-shield-check"></i> Seguridad Total</h4>
+              <div class="amenity-list">
+                <div class="amenity-item">
+                  <i class="bi bi-headset"></i>
+                  <span>Radio comunicación</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-heart-pulse"></i>
+                  <span>Botiquín primeros auxilios</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-geo"></i>
+                  <span>GPS de emergencia</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-person-check"></i>
+                  <span>Guías certificados</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experiencias Especiales -->
+          <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="500">
+            <div class="amenity-category">
+              <h4><i class="bi bi-award"></i> Experiencias Únicas</h4>
+              <div class="amenity-list">
+                <div class="amenity-item">
+                  <i class="bi bi-sunrise"></i>
+                  <span>Amaneceres épicos</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-cloud-drizzle"></i>
+                  <span>Baños en cascadas</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-tree-fill"></i>
+                  <span>Escalada en roca</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-soundwave"></i>
+                  <span>Silencio absoluto</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-moon-stars"></i>
+                  <span>Noches místicas</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-wind"></i>
+                  <span>Aire puro garantizado</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Servicios Incluidos -->
+          <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="600">
+            <div class="amenity-category">
+              <h4><i class="bi bi-check-circle"></i> Todo Incluido</h4>
+              <div class="amenity-list">
+                <div class="amenity-item">
+                  <i class="bi bi-truck"></i>
+                  <span>Transporte 4x4</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-person"></i>
+                  <span>Guía personal</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-camera"></i>
+                  <span>Fotos profesionales</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-file-text"></i>
+                  <span>Certificado aventurero</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-gift"></i>
+                  <span>Kit de recuerdos</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-shield"></i>
+                  <span>Seguro de aventura</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- /Services Section -->
+
+    <!-- Camping Section -->
+    <section id="camping" class="menu section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Expediciones Disponibles</h2>
+        <p>Elige tu próxima aventura entre nuestras expediciones cuidadosamente diseñadas para diferentes niveles de experiencia.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <div class="menu-filters isotope-filters mb-5">
+            <ul>
+              <li data-filter="*" class="filter-active">🏔️ Todas las Aventuras</li>
+            </ul>
+          </div>
+
+          <div class="menu-container isotope-container row gy-4">
+
+            <!-- Expedición Montaña -->
+            <div class="col-lg-4 isotope-item filter-expedicion">
+              <div class="menu-item card shadow-sm p-3 mb-4 rounded-4 bg-dark">
+                <img src="public/images/mountain-expedition.jpg" style="width: 100%; height: 300px; object-fit: cover;" alt="Expedición Montaña" class="menu-img img-fluid rounded-3 mb-3">
+                <div class="menu-content text-white">
+                  <h5 class="mb-1">Expedición Montaña</h5>
+                  <p class="text-light mb-2">Aventura Nivel Extremo - 3 días</p>
+                  <div class="d-flex align-items-center justify-content-between mb-2 text-light small">
+                    <span><i class="bi bi-people"></i> 8 aventureros</span>
+                    <span><i class="bi bi-geo-alt"></i> 3500m altitud</span>
+                    <span><i class="bi bi-thermometer-low"></i> -5°C noches</span>
+                  </div>
+                  <div class="amenity-list-small mb-2">
+                    <small class="text-light">
+                      <i class="bi bi-check2"></i> Escalada técnica
+                      <i class="bi bi-check2"></i> Vistas épicas
+                      <i class="bi bi-check2"></i> Desafío extremo
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Expedición Bosque -->
+            <div class="col-lg-4 isotope-item filter-expedicion">
+              <div class="menu-item card shadow-sm p-3 mb-4 rounded-4 bg-dark">
+                <img src="public/images/forest-expedition.jpg" style="width: 100%; height: 300px; object-fit: cover;" alt="Expedición Bosque Primario" class="menu-img img-fluid rounded-3 mb-3">
+                <div class="menu-content text-white">
+                  <h5 class="mb-1">Bosque Primario</h5>
+                  <p class="text-light mb-2">Aventura Nivel Intermedio - 2 días</p>
+                  <div class="d-flex align-items-center justify-content-between mb-2 text-light small">
+                    <span><i class="bi bi-people"></i> 12 aventureros</span>
+                    <span><i class="bi bi-tree"></i> Bosque virgen</span>
+                    <span><i class="bi bi-eye"></i> Fauna salvaje</span>
+                  </div>
+                  <div class="amenity-list-small mb-2">
+                    <small class="text-light">
+                      <i class="bi bi-check2"></i> Senderos secretos
+                      <i class="bi bi-check2"></i> Ríos cristalinos
+                      <i class="bi bi-check2"></i> Sonidos naturales
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Expedición Desierto -->
+            <div class="col-lg-4 isotope-item filter-expedicion">
+              <div class="menu-item card shadow-sm p-3 mb-4 rounded-4 bg-dark">
+                <img src="public/images/desert-expedition.jpg" style="width: 100%; height: 300px; object-fit: cover;" alt="Expedición Desierto" class="menu-img img-fluid rounded-3 mb-3">
+                <div class="menu-content text-white">
+                  <h5 class="mb-1">Desierto Estrellado</h5>
+                  <p class="text-light mb-2">Aventura Nivel Avanzado - 2 días</p>
+                  <div class="d-flex align-items-center justify-content-between mb-2 text-light small">
+                    <span><i class="bi bi-people"></i> 10 aventureros</span>
+                    <span><i class="bi bi-stars"></i> Cielo infinito</span>
+                    <span><i class="bi bi-thermometer-sun"></i> 40°C día</span>
+                  </div>
+                  <div class="amenity-list-small mb-2">
+                    <small class="text-light">
+                      <i class="bi bi-check2"></i> Dunas gigantes
+                      <i class="bi bi-check2"></i> Silencio absoluto
+                      <i class="bi bi-check2"></i> Astronomía pura
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Expedición Lago -->
+            <div class="col-lg-6 isotope-item filter-expedicion">
+              <div class="menu-item card shadow-sm p-3 mb-4 rounded-4 bg-dark">
+                <img src="public/images/lake-expedition.jpg" style="width: 100%; height: 300px; object-fit: cover;" alt="Expedición Lago Alpino" class="menu-img img-fluid rounded-3 mb-3">
+                <div class="menu-content text-white">
+                  <h5 class="mb-1">Lago Alpino Secreto</h5>
+                  <p class="text-light mb-2">Aventura Nivel Principiante - 1 día</p>
+                  <div class="d-flex align-items-center justify-content-between mb-2 text-light small">
+                    <span><i class="bi bi-people"></i> 15 aventureros</span>
+                    <span><i class="bi bi-water"></i> Aguas cristalinas</span>
+                    <span><i class="bi bi-camera"></i> Fotos épicas</span>
+                  </div>
+                  <div class="amenity-list-small mb-2">
+                    <small class="text-light">
+                      <i class="bi bi-check2"></i> Senderismo suave
+                      <i class="bi bi-check2"></i> Baño opcional
+                      <i class="bi bi-check2"></i> Picnic natural
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Expedición Nocturna -->
+            <div class="col-lg-6 isotope-item filter-expedicion">
+              <div class="menu-item card shadow-sm p-3 mb-4 rounded-4 bg-dark">
+                <img src="public/images/night-expedition.jpg" style="width: 100%; height: 300px; object-fit: cover;" alt="Expedición Nocturna" class="menu-img img-fluid rounded-3 mb-3">
+                <div class="menu-content text-white">
+                  <h5 class="mb-1">Safari Nocturno</h5>
+                  <p class="text-light mb-2">Aventura Nivel Especial - 1 noche</p>
+                  <div class="d-flex align-items-center justify-content-between mb-2 text-light small">
+                    <span><i class="bi bi-people"></i> 6 aventureros</span>
+                    <span><i class="bi bi-moon"></i> Solo nocturno</span>
+                    <span><i class="bi bi-eye"></i> Fauna nocturna</span>
+                  </div>
+                  <div class="amenity-list-small mb-2">
+                    <small class="text-light">
+                      <i class="bi bi-check2"></i> Visión nocturna
+                      <i class="bi bi-check2"></i> Sonidos salvajes
+                      <i class="bi bi-check2"></i> Experiencia única
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section><!-- /Camping Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Únete a la Aventura</h2>
+        <p>Estamos ubicados en el corazón de las montañas. Contáctanos para reservar tu próxima expedición salvaje.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+        <div class="row gy-4">
+          
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="contact-info">
+              <h3 class="mb-4">Información de Contacto</h3>
+              
+              <div class="contact-item">
+                <i class="bi bi-geo-alt"></i>
+                <div>
+                  <h4>Base de Operaciones</h4>
+                  <p>Sierra Nevada, Cordillera Central<br>
+                  Entrada al Parque Nacional Salvaje</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <i class="bi bi-clock"></i>
+                <div>
+                  <h4>Horario de Expediciones</h4>
+                  <p>Lunes - Domingo: 5:00 AM - 9:00 PM<br>
+                  Aventuras bajo cualquier clima</p>
+                </div>
+              </div>
+
+              <div class="social-links">
+                <a href="https://www.instagram.com/wildcamp_adventures" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-instagram"></i>
+                </a>
+                
+                <a href="mailto:aventuras@wildcamp.com">
+                  <i class="bi bi-envelope"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="contact-info">
+              <h3 class="mb-4">¿Por qué Wild Camp?</h3>
+              
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <div class="feature-box-compact">
+                    <div class="feature-icon-small">
+                      <i class="bi bi-award"></i>
+                    </div>
+                    <h5>Aventura Auténtica</h5>
+                    <p>No simulamos la naturaleza, te llevamos a vivirla en su estado más puro y salvaje, lejos de cualquier comodidad urbana.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                  <div class="feature-box-compact">
+                    <div class="feature-icon-small">
+                      <i class="bi bi-people"></i>
+                    </div>
+                    <h5>Grupos Reducidos</h5>
+                    <p>Máximo 15 aventureros por expedición para garantizar experiencias personalizadas y conexión real con el entorno.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                  <div class="feature-box-compact">
+                    <div class="feature-icon-small">
+                      <i class="bi bi-shield-check"></i>
+                    </div>
+                    <h5>Seguridad Extrema</h5>
+                    <p>Guías certificados en montañismo y primeros auxilios, equipos de comunicación satelital y protocolos de emergencia.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                  <div class="feature-box-compact">
+                    <div class="feature-icon-small">
+                      <i class="bi bi-heart"></i>
+                    </div>
+                    <h5>Transformación Personal</h5>
+                    <p>Cada expedición está diseñada para desafiar tus límites y despertar una nueva versión de ti mismo.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <!-- Footer -->
+<footer id="footer" class="footer">
+  <div class="container text-center py-4">
+    <p>© Copyright <strong class="px-1 sitename">Wild Camp</strong> - Todos los derechos reservados.</p>
+    <p class="mb-0">🏕️ Tu Aventura Salvaje Comienza Aquí | Sierra Nevada, Montañas</p>
+    <div class="social-links mt-3">
+      <a href="https://www.instagram.com/wildcamp_adventures" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="mailto:aventuras@wildcamp.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope"></i>
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="main.js"></script>
+
+</body>
+</html>

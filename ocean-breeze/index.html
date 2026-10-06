@@ -1,0 +1,1335 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Ocean Breeze Resort - Lujo Tropical</title>
+  <meta name="description" content="Vive la experiencia definitiva de lujo tropical en Ocean Breeze Resort. Playas privadas, suites con vista al mar y servicios de primera clase.">
+  <meta name="keywords" content="Ocean Breeze, resort, playa, tropical, lujo, mar, suites, spa, buceo, surf">
+
+  <!-- Favicons -->
+  <link href="public/images/wave-logo.jpg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <a href="#hero" class="logo d-flex align-items-center me-auto me-xl-0">
+        <img src="public/images/wave-logo.jpg" alt="Logo" class="logo-img">
+        <h1 class="sitename">Ocean Breeze</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Inicio</a></li>
+          <li><a href="#about">Resort</a></li>
+          <li><a href="#amenities">Amenities</a></li>
+          <li><a href="#suites">Suites</a></li>
+          <li><a href="#experiences">Experiencias</a></li>
+          <li><a href="#contact">Reservas</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+      <div class="container-fluid hero-container" data-aos="fade-up">
+        <div class="row g-0 align-items-center">
+          <div class="col-lg-6 content-col">
+            <div class="content-wrapper">
+              <div class="status-badge">🌊 Temporada Alta 2024</div>
+              <h2>Paraíso Tropical Exclusivo</h2>
+              <p>Descubre el lujo redefinido en Ocean Breeze Resort, donde cada detalle está diseñado para ofrecerte una experiencia tropical inolvidable. Suites frente al mar, playas privadas y servicios de clase mundial te esperan en este santuario costero.</p>
+
+              <div class="opening-hours" data-aos="fade-up" data-aos-delay="500">
+                <i class="bi bi-brightness-high"></i>
+                <span>Lujo Disponible 24/7</span>
+              </div>
+
+              <div class="btn-group">
+                <a href="#about" class="btn btn-book">Descubre Más</a>
+                <a href="#suites" class="btn btn-menu">Ver Suites</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 swiper-col">
+            <div class="swiper hero-swiper init-swiper" data-aos="zoom-out" data-aos-delay="100">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 1000,
+                  "autoplay": {
+                    "delay": 4500
+                  },
+                  "effect": "fade",
+                  "slidesPerView": 1,
+                  "navigation": {
+                    "nextEl": ".swiper-button-next",
+                    "prevEl": ".swiper-button-prev"
+                  }
+                }
+              </script>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="img-container">
+                    <img src="public/images/beach-luxury.jpg" alt="Playa de lujo">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="img-container">
+                    <img src="public/images/ocean-suite.jpg" alt="Suite con vista al océano">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="img-container">
+                    <img src="public/images/infinity-pool.jpg" alt="Piscina infinita">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="img-container">
+                    <img src="public/images/sunset-terrace.jpg" alt="Terraza al atardecer">
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section bg-overlay">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center gy-4">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="about-content">
+              <h3>Experiencia de Lujo Tropical</h3>
+              <p class="fst-italic">Bienvenidos a Ocean Breeze Resort, donde el lujo se encuentra con la naturaleza tropical en perfecta armonía, creando experiencias que despiertan todos los sentidos.</p>
+
+              <p><strong>Nuestra Filosofía:</strong> Crear momentos extraordinarios que trascienden las expectativas, ofreciendo servicios de clase mundial en un entorno natural privilegiado donde cada huésped se siente único y especial.</p>
+
+              <p><strong>Nuestra Promesa:</strong> Convertirnos en el destino de lujo tropical más exclusivo del Caribe, donde la sofisticación y la autenticidad se combinan para crear experiencias de vida transformadoras.</p>
+
+              <p><strong>¿Por qué somos únicos?</strong> Porque ofrecemos más que hospitalidad de lujo: brindamos una inmersión total en el paraíso tropical con 25 suites exclusivas, playa privada de arena blanca, spa award-winning, restaurantes gourmet, actividades acuáticas premium y un servicio personalizado que anticipa cada deseo.</p>
+
+              <div class="chef-signature mt-4">
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    <img src="public/images/manager-avatar.jpg" class="chef-avatar rounded-circle" alt="Resort Manager">
+                  </div>
+                  <div class="col">
+                    <p class="chef-message mb-2">"En Ocean Breeze, cada amanecer es una nueva oportunidad de crear momentos mágicos que nuestros huéspedes atesorarán para toda la vida."</p>
+                    <p class="chef-name">Equipo Ocean Breeze Resort</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="about-image-wrapper">
+              <img src="public/images/resort-aerial.jpg" class="img-fluid main-image shadow" alt="Vista aérea del resort">
+              
+              <span class="establishment-year d-flex align-items-center justify-content-center text-center">Lujo</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5 pt-4 features-section">
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="bi bi-house-heart"></i>
+              </div>
+              <h4>Suites de Lujo</h4>
+              <p>25 suites exclusivas con vista al océano, diseño contemporáneo y amenities premium para una experiencia incomparable.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="bi bi-water"></i>
+              </div>
+              <h4>Playa Privada</h4>
+              <p>500 metros de arena blanca exclusiva con servicio de playa personalizado, cabañas VIP y actividades acuáticas premium.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="bi bi-spa"></i>
+              </div>
+              <h4>Spa & Wellness</h4>
+              <p>Centro de bienestar de clase mundial con tratamientos inspirados en el océano y terapias de relajación tropical.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="500">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="bi bi-cup-hot"></i>
+              </div>
+              <h4>Gastronomía Gourmet</h4>
+              <p>3 restaurantes especializados con chefs reconocidos, bar en la playa y servicio de habitaciones 24/7.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
+            <div class="stats-container">
+              <div class="stat-item">
+                <span class="stat-number">5</span>
+                <p class="stat-label">Estrellas Diamond</p>
+              </div>
+
+              <div class="stat-item">
+                <span class="stat-number">25</span>
+                <p class="stat-label">Suites Exclusivas</p>
+              </div>
+
+              <div class="stat-item">
+                <span class="stat-number">98</span>
+                <p class="stat-label">% Satisfacción</p>
+              </div>
+
+              <div class="stat-item">
+                <span class="stat-number">15</span>
+                <p class="stat-label">Premios Internacionales</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- /About Section -->
+
+    <!-- Amenities Section -->
+    <section id="amenities" class="amenities section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Amenities Premium</h2>
+        <p>Descubre las exclusivas amenities que hacen de Ocean Breeze Resort el destino de lujo tropical más codiciado del Caribe.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          
+          <!-- Spa & Wellness -->
+          <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="amenity-category">
+              <h4><i class="bi bi-spa"></i> Spa Oceánico</h4>
+              <div class="amenity-list">
+                <div class="amenity-item">
+                  <i class="bi bi-water"></i>
+                  <span>Tratamientos con agua de mar</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-flower1"></i>
+                  <span>Aromaterapia tropical</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-person-arms-up"></i>
+                  <span>Masajes en la playa</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-heart-pulse"></i>
+                  <span>Yoga frente al mar</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gastronomía -->
+          <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="amenity-category">
+              <h4><i class="bi bi-cup-hot"></i> Experiencia Culinaria</h4>
+              <div class="amenity-list">
+                <div class="amenity-item">
+                  <i class="bi bi-shop"></i>
+                  <span>Restaurante Mare (Mariscos)</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-fire"></i>
+                  <span>Grill Sunset (Carnes Premium)</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-cup-straw"></i>
+                  <span>Tiki Bar (Cócteles Tropicales)</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-clock"></i>
+                  <span>Room Service 24/7</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-wine"></i>
+                  <span>Cava de vinos premium</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-egg-fried"></i>
+                  <span>Chef privado disponible</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Actividades Acuáticas -->
+          <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="amenity-category">
+              <h4><i class="bi bi-water"></i> Deportes Acuáticos</h4>
+              <div class="amenity-list">
+                <div class="amenity-item">
+                  <i class="bi bi-life-preserver"></i>
+                  <span>Buceo certificado PADI</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-tsunami"></i>
+                  <span>Surf y paddle board</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-airplane"></i>
+                  <span>Jet ski y parasailing</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-sailboat"></i>
+                  <span>Catamaran y yate charter</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-binoculars"></i>
+                  <span>Snorkeling guiado</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-fish"></i>
+                  <span>Pesca deportiva</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Piscinas -->
+          <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="amenity-category">
+              <h4><i class="bi bi-water"></i> Piscinas de Lujo</h4>
+              <div class="amenity-list">
+                <div class="amenity-item">
+                  <i class="bi bi-infinity"></i>
+                  <span>Piscina infinita vista al mar</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-moon"></i>
+                  <span>Pool bar con cócteles</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-thermometer-sun"></i>
+                  <span>Jacuzzi climatizado</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-umbrella"></i>
+                  <span>Cabañas VIP poolside</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Entretenimiento -->
+          <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="500">
+            <div class="amenity-category">
+              <h4><i class="bi bi-music-note"></i> Entretenimiento</h4>
+              <div class="amenity-list">
+                <div class="amenity-item">
+                  <i class="bi bi-music-note-beamed"></i>
+                  <span>Shows en vivo nocturnos</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-disc"></i>
+                  <span>DJ sets en beach club</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-controller"></i>
+                  <span>Salón de juegos VIP</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-book"></i>
+                  <span>Biblioteca con vista al mar</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-camera"></i>
+                  <span>Fotógrafo profesional</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-calendar-event"></i>
+                  <span>Eventos privados</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Servicios VIP -->
+          <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="600">
+            <div class="amenity-category">
+              <h4><i class="bi bi-star"></i> Servicios VIP</h4>
+              <div class="amenity-list">
+                <div class="amenity-item">
+                  <i class="bi bi-person-check"></i>
+                  <span>Mayordomo personal</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-car-front"></i>
+                  <span>Transfer privado helicopter</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-wifi"></i>
+                  <span>WiFi premium alta velocidad</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-shield-check"></i>
+                  <span>Seguridad 24/7</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-bag-check"></i>
+                  <span>Servicio de lavandería</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-gem"></i>
+                  <span>Concierge especializado</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- /Amenities Section -->
+
+    <!-- Suites Section -->
+    <section id="suites" class="menu section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Suites Exclusivas</h2>
+        <p>Nuestras 25 suites de lujo están diseñadas para ofrecer la máxima comodidad y sofisticación con vistas espectaculares al océano.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <div class="menu-filters isotope-filters mb-5">
+            <ul>
+              <li data-filter="*" class="filter-active">🌊 Todas las Suites</li>
+            </ul>
+          </div>
+
+          <div class="menu-container isotope-container row gy-4">
+
+            <!-- Ocean View Suite -->
+            <div class="col-lg-4 isotope-item filter-suite">
+              <div class="menu-item card shadow-sm p-3 mb-4 rounded-4 bg-dark">
+                <img src="public/images/ocean-view-suite.jpg" style="width: 100%; height: 300px; object-fit: cover;" alt="Ocean View Suite" class="menu-img img-fluid rounded-3 mb-3">
+                <div class="menu-content text-white">
+                  <h5 class="mb-1">Ocean View Suite</h5>
+                  <p class="text-light mb-2">85m² - Vista frontal al mar</p>
+                  <div class="d-flex align-items-center justify-content-between mb-2 text-light small">
+                    <span><i class="bi bi-people"></i> 2 huéspedes</span>
+                    <span><i class="bi bi-water"></i> Vista al océano</span>
+                    <span><i class="bi bi-geo-alt"></i> Terraza privada</span>
+                  </div>
+                  <div class="amenity-list-small mb-2">
+                    <small class="text-light">
+                      <i class="bi bi-check2"></i> Jacuzzi privado
+                      <i class="bi bi-check2"></i> Minibar premium
+                      <i class="bi bi-check2"></i> Mayordomo 24/7
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Beachfront Suite -->
+            <div class="col-lg-4 isotope-item filter-suite">
+              <div class="menu-item card shadow-sm p-3 mb-4 rounded-4 bg-dark">
+                <img src="public/images/beachfront-suite.jpg" style="width: 100%; height: 300px; object-fit: cover;" alt="Beachfront Suite" class="menu-img img-fluid rounded-3 mb-3">
+                <div class="menu-content text-white">
+                  <h5 class="mb-1">Beachfront Suite</h5>
+                  <p class="text-light mb-2">120m² - Acceso directo a playa</p>
+                  <div class="d-flex align-items-center justify-content-between mb-2 text-light small">
+                    <span><i class="bi bi-people"></i> 4 huéspedes</span>
+                    <span><i class="bi bi-house-door"></i> Acceso playa</span>
+                    <span><i class="bi bi-heart"></i> Romántica</span>
+                  </div>
+                  <div class="amenity-list-small mb-2">
+                    <small class="text-light">
+                      <i class="bi bi-check2"></i> Piscina privada
+                      <i class="bi bi-check2"></i> Deck exclusivo
+                      <i class="bi bi-check2"></i> Chef disponible
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Presidential Suite -->
+            <div class="col-lg-4 isotope-item filter-suite">
+              <div class="menu-item card shadow-sm p-3 mb-4 rounded-4 bg-dark">
+                <img src="public/images/presidential-suite.jpg" style="width: 100%; height: 300px; object-fit: cover;" alt="Presidential Suite" class="menu-img img-fluid rounded-3 mb-3">
+                <div class="menu-content text-white">
+                  <h5 class="mb-1">Presidential Suite</h5>
+                  <p class="text-light mb-2">200m² - Lujo absoluto</p>
+                  <div class="d-flex align-items-center justify-content-between mb-2 text-light small">
+                    <span><i class="bi bi-people"></i> 6 huéspedes</span>
+                    <span><i class="bi bi-gem"></i> Ultra lujo</span>
+                    <span><i class="bi bi-award"></i> Presidencial</span>
+                  </div>
+                  <div class="amenity-list-small mb-2">
+                    <small class="text-light">
+                      <i class="bi bi-check2"></i> 2 dormitorios
+                      <i class="bi bi-check2"></i> Sala privada
+                      <i class="bi bi-check2"></i> Helicopter pad
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sunset Penthouse -->
+            <div class="col-lg-6 isotope-item filter-suite">
+              <div class="menu-item card shadow-sm p-3 mb-4 rounded-4 bg-dark">
+                <img src="public/images/sunset-penthouse.jpg" style="width: 100%; height: 300px; object-fit: cover;" alt="Sunset Penthouse" class="menu-img img-fluid rounded-3 mb-3">
+                <div class="menu-content text-white">
+                  <h5 class="mb-1">Sunset Penthouse</h5>
+                  <p class="text-light mb-2">300m² - Nivel superior completo</p>
+                  <div class="d-flex align-items-center justify-content-between mb-2 text-light small">
+                    <span><i class="bi bi-people"></i> 8 huéspedes</span>
+                    <span><i class="bi bi-sunset"></i> Vista 360°</span>
+                    <span><i class="bi bi-building"></i> Penthouse</span>
+                  </div>
+                  <div class="amenity-list-small mb-2">
+                    <small class="text-light">
+                      <i class="bi bi-check2"></i> Terraza rooftop
+                      <i class="bi bi-check2"></i> Infinity pool
+                      <i class="bi bi-check2"></i> Bar privado
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Overwater Villa -->
+            <div class="col-lg-6 isotope-item filter-suite">
+              <div class="menu-item card shadow-sm p-3 mb-4 rounded-4 bg-dark">
+                <img src="public/images/overwater-villa.jpg" style="width: 100%; height: 300px; object-fit: cover;" alt="Overwater Villa" class="menu-img img-fluid rounded-3 mb-3">
+                <div class="menu-content text-white">
+                  <h5 class="mb-1">Overwater Villa</h5>
+                  <p class="text-light mb-2">150m² - Sobre el océano</p>
+                  <div class="d-flex align-items-center justify-content-between mb-2 text-light small">
+                    <span><i class="bi bi-people"></i> 2 huéspedes</span>
+                    <span><i class="bi bi-water"></i> Sobre agua</span>
+                    <span><i class="bi bi-star"></i> Única</span>
+                  </div>
+                  <div class="amenity-list-small mb-2">
+                    <small class="text-light">
+                      <i class="bi bi-check2"></i> Piso de cristal
+                      <i class="bi bi-check2"></i> Escalera al mar
+                      <i class="bi bi-check2"></i> Experiencia única
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section><!-- /Suites Section -->
+
+    <!-- Experiences Section -->
+    <section id="experiences" class="contact section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Experiencias Exclusivas</h2>
+        <p>Vive momentos únicos e irrepetibles con nuestras experiencias de lujo diseñadas para crear recuerdos inolvidables.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+        <div class="row gy-4">
+          
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="experience-box">
+              <div class="experience-icon">
+                <i class="bi bi-sunset"></i>
+              </div>
+              <h4>Cena Romántica en la Playa</h4>
+              <p>Mesa privada en la arena bajo las estrellas, menú degustación de 7 tiempos preparado por nuestro chef ejecutivo, sommelier personal y ambientación con antorchas tiki.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="experience-box">
+              <div class="experience-icon">
+                <i class="bi bi-life-preserver"></i>
+              </div>
+              <h4>Excursión de Buceo VIP</h4>
+              <p>Exploración de arrecifes privados en yate de lujo, instructor certificado PADI, equipo premium y almuerzo gourmet a bordo con vista panorámica.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="experience-box">
+              <div class="experience-icon">
+                <i class="bi bi-spa"></i>
+              </div>
+              <h4>Spa Ritual Oceánico</h4>
+              <p>Tratamiento completo de 3 horas con masaje con piedras volcánicas, envolvimiento de algas marinas y facial con perlas marinas en cabina privada frente al mar.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- /Experiences Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Reservas y Contacto</h2>
+        <p>Nuestro equipo de concierge está disponible 24/7 para personalizar tu experiencia de lujo tropical perfecta.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+        <div class="row gy-4">
+          
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="contact-info">
+              <h3 class="mb-4">Información de Reservas</h3>
+              
+              <div class="contact-item">
+                <i class="bi bi-geo-alt"></i>
+                <div>
+                  <h4>Ubicación Exclusiva</h4>
+                  <p>Isla Privada Coral Bay<br>
+                  Caribe Oriental, Aguas Cristalinas</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <i class="bi bi-telephone"></i>
+                <div>
+                  <h4>Reservas VIP</h4>
+                  <p>+1 (888) 555-OCEAN<br>
+                  +1 (888) 555-BREEZE</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <i class="bi bi-clock"></i>
+                <div>
+                  <h4>Concierge 24/7</h4>
+                  <p>Disponible las 24 horas<br>
+                  Servicio personalizado siempre</p>
+                </div>
+              </div>
+
+              <div class="social-links">
+                <a href="https://www.instagram.com/oceanbreeze_resort" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-instagram"></i>
+                </a>
+                
+                <a href="mailto:reservas@oceanbreeze.com">
+                  <i class="bi bi-envelope"></i>
+                </a>
+                
+                <a href="https://www.facebook.com/oceanbreezeresort" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-facebook"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="contact-info">
+              <h3 class="mb-4">¿Por qué Ocean Breeze?</h3>
+              
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <div class="feature-box-compact">
+                    <div class="feature-icon-small">
+                      <i class="bi bi-award"></i>
+                    </div>
+                    <h5>Lujo Auténtico</h5>
+                    <p>5 estrellas Diamond Award, reconocido internacionalmente por excelencia en servicio y instalaciones de lujo tropical.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                  <div class="feature-box-compact">
+                    <div class="feature-icon-small">
+                      <i class="bi bi-gem"></i>
+                    </div>
+                    <h5>Exclusividad Total</h5>
+                    <p>Solo 25 suites para garantizar privacidad absoluta, servicio personalizado y experiencias únicas e irrepetibles.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                  <div class="feature-box-compact">
+                    <div class="feature-icon-small">
+                      <i class="bi bi-water"></i>
+                    </div>
+                    <h5>Playa Privada</h5>
+                    <p>500 metros de arena blanca exclusiva, aguas cristalinas y servicios de playa de clase mundial disponibles 24/7.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                  <div class="feature-box-compact">
+                    <div class="feature-icon-small">
+                      <i class="bi bi-heart"></i>
+                    </div>
+                    <h5>Experiencias Memorables</h5>
+                    <p>Cada momento está diseñado para superar expectativas y crear recuerdos que durarán toda la vida.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <!-- Footer -->
+<footer id="footer" class="footer">
+  <div class="container text-center py-4">
+    <p>© Copyright <strong class="px-1 sitename">Ocean Breeze Resort</strong> - Todos los derechos reservados.</p>
+    <p class="mb-0">🌊 Tu Paraíso Tropical de Lujo | Isla Privada Coral Bay, Caribe</p>
+    <div class="social-links mt-3">
+      <a href="https://www.instagram.com/oceanbreeze_resort" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="mailto:reservas@oceanbreeze.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope"></i>
+      </a>
+      <a href="https://www.facebook.com/oceanbreezeresort" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-facebook"></i>
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="main.js"></script>
+
+</body>
+</html>
+                <!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Ocean Breeze Resort - Lujo Tropical</title>
+  <meta name="description" content="Vive la experiencia definitiva de lujo tropical en Ocean Breeze Resort. Playas privadas, suites con vista al mar y servicios de primera clase.">
+  <meta name="keywords" content="Ocean Breeze, resort, playa, tropical, lujo, mar, suites, spa, buceo, surf">
+
+  <!-- Favicons -->
+  <link href="public/images/wave-logo.jpg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <a href="#hero" class="logo d-flex align-items-center me-auto me-xl-0">
+        <img src="public/images/wave-logo.jpg" alt="Logo" class="logo-img">
+        <h1 class="sitename">Ocean Breeze</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Inicio</a></li>
+          <li><a href="#about">Resort</a></li>
+          <li><a href="#amenities">Amenities</a></li>
+          <li><a href="#suites">Suites</a></li>
+          <li><a href="#experiences">Experiencias</a></li>
+          <li><a href="#contact">Reservas</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+      <div class="container-fluid hero-container" data-aos="fade-up">
+        <div class="row g-0 align-items-center">
+          <div class="col-lg-6 content-col">
+            <div class="content-wrapper">
+              <div class="status-badge">🌊 Temporada Alta 2024</div>
+              <h2>Paraíso Tropical Exclusivo</h2>
+              <p>Descubre el lujo redefinido en Ocean Breeze Resort, donde cada detalle está diseñado para ofrecerte una experiencia tropical inolvidable. Suites frente al mar, playas privadas y servicios de clase mundial te esperan en este santuario costero.</p>
+
+              <div class="opening-hours" data-aos="fade-up" data-aos-delay="500">
+                <i class="bi bi-brightness-high"></i>
+                <span>Lujo Disponible 24/7</span>
+              </div>
+
+              <div class="btn-group">
+                <a href="#about" class="btn btn-book">Descubre Más</a>
+                <a href="#suites" class="btn btn-menu">Ver Suites</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 swiper-col">
+            <div class="swiper hero-swiper init-swiper" data-aos="zoom-out" data-aos-delay="100">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 1000,
+                  "autoplay": {
+                    "delay": 4500
+                  },
+                  "effect": "fade",
+                  "slidesPerView": 1,
+                  "navigation": {
+                    "nextEl": ".swiper-button-next",
+                    "prevEl": ".swiper-button-prev"
+                  }
+                }
+              </script>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="img-container">
+                    <img src="public/images/beach-luxury.jpg" alt="Playa de lujo">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="img-container">
+                    <img src="public/images/ocean-suite.jpg" alt="Suite con vista al océano">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="img-container">
+                    <img src="public/images/infinity-pool.jpg" alt="Piscina infinita">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="img-container">
+                    <img src="public/images/sunset-terrace.jpg" alt="Terraza al atardecer">
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section bg-overlay">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center gy-4">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="about-content">
+              <h3>Experiencia de Lujo Tropical</h3>
+              <p class="fst-italic">Bienvenidos a Ocean Breeze Resort, donde el lujo se encuentra con la naturaleza tropical en perfecta armonía, creando experiencias que despiertan todos los sentidos.</p>
+
+              <p><strong>Nuestra Filosofía:</strong> Crear momentos extraordinarios que trascienden las expectativas, ofreciendo servicios de clase mundial en un entorno natural privilegiado donde cada huésped se siente único y especial.</p>
+
+              <p><strong>Nuestra Promesa:</strong> Convertirnos en el destino de lujo tropical más exclusivo del Caribe, donde la sofisticación y la autenticidad se combinan para crear experiencias de vida transformadoras.</p>
+
+              <p><strong>¿Por qué somos únicos?</strong> Porque ofrecemos más que hospitalidad de lujo: brindamos una inmersión total en el paraíso tropical con 25 suites exclusivas, playa privada de arena blanca, spa award-winning, restaurantes gourmet, actividades acuáticas premium y un servicio personalizado que anticipa cada deseo.</p>
+
+              <div class="chef-signature mt-4">
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    <img src="public/images/manager-avatar.jpg" class="chef-avatar rounded-circle" alt="Resort Manager">
+                  </div>
+                  <div class="col">
+                    <p class="chef-message mb-2">"En Ocean Breeze, cada amanecer es una nueva oportunidad de crear momentos mágicos que nuestros huéspedes atesorarán para toda la vida."</p>
+                    <p class="chef-name">Equipo Ocean Breeze Resort</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="about-image-wrapper">
+              <img src="public/images/resort-aerial.jpg" class="img-fluid main-image shadow" alt="Vista aérea del resort">
+              
+              <span class="establishment-year d-flex align-items-center justify-content-center text-center">Lujo</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5 pt-4 features-section">
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="bi bi-house-heart"></i>
+              </div>
+              <h4>Suites de Lujo</h4>
+              <p>25 suites exclusivas con vista al océano, diseño contemporáneo y amenities premium para una experiencia incomparable.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="bi bi-water"></i>
+              </div>
+              <h4>Playa Privada</h4>
+              <p>500 metros de arena blanca exclusiva con servicio de playa personalizado, cabañas VIP y actividades acuáticas premium.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="bi bi-spa"></i>
+              </div>
+              <h4>Spa & Wellness</h4>
+              <p>Centro de bienestar de clase mundial con tratamientos inspirados en el océano y terapias de relajación tropical.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="500">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="bi bi-cup-hot"></i>
+              </div>
+              <h4>Gastronomía Gourmet</h4>
+              <p>3 restaurantes especializados con chefs reconocidos, bar en la playa y servicio de habitaciones 24/7.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
+            <div class="stats-container">
+              <div class="stat-item">
+                <span class="stat-number">5</span>
+                <p class="stat-label">Estrellas Diamond</p>
+              </div>
+
+              <div class="stat-item">
+                <span class="stat-number">25</span>
+                <p class="stat-label">Suites Exclusivas</p>
+              </div>
+
+              <div class="stat-item">
+                <span class="stat-number">98%</span>
+                <p class="stat-label">Satisfacción Huéspedes</p>
+              </div>
+
+              <div class="stat-item">
+                <span class="stat-number">15</span>
+                <p class="stat-label">Premios Internacionales</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- /About Section -->
+
+    <!-- Amenities Section -->
+    <section id="amenities" class="amenities section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Amenities Premium</h2>
+        <p>Descubre las exclusivas amenities que hacen de Ocean Breeze Resort el destino de lujo tropical más codiciado del Caribe.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          
+          <!-- Spa & Wellness -->
+          <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="amenity-category">
+              <h4><i class="bi bi-spa"></i> Spa Oceánico</h4>
+              <div class="amenity-list">
+                <div class="amenity-item">
+                  <i class="bi bi-water"></i>
+                  <span>Tratamientos con agua de mar</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-flower1"></i>
+                  <span>Aromaterapia tropical</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-person-arms-up"></i>
+                  <span>Masajes en la playa</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-heart-pulse"></i>
+                  <span>Yoga frente al mar</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gastronomía -->
+          <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="amenity-category">
+              <h4><i class="bi bi-cup-hot"></i> Experiencia Culinaria</h4>
+              <div class="amenity-list">
+                <div class="amenity-item">
+                  <i class="bi bi-shop"></i>
+                  <span>Restaurante Mare (Mariscos)</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-fire"></i>
+                  <span>Grill Sunset (Carnes Premium)</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-cup-straw"></i>
+                  <span>Tiki Bar (Cócteles Tropicales)</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-clock"></i>
+                  <span>Room Service 24/7</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-wine"></i>
+                  <span>Cava de vinos premium</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-egg-fried"></i>
+                  <span>Chef privado disponible</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Actividades Acuáticas -->
+          <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="amenity-category">
+              <h4><i class="bi bi-water"></i> Deportes Acuáticos</h4>
+              <div class="amenity-list">
+                <div class="amenity-item">
+                  <i class="bi bi-life-preserver"></i>
+                  <span>Buceo certificado PADI</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-tsunami"></i>
+                  <span>Surf y paddle board</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-airplane"></i>
+                  <span>Jet ski y parasailing</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-sailboat"></i>
+                  <span>Catamaran y yate charter</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-binoculars"></i>
+                  <span>Snorkeling guiado</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-fish"></i>
+                  <span>Pesca deportiva</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Piscinas -->
+          <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="amenity-category">
+              <h4><i class="bi bi-water"></i> Piscinas de Lujo</h4>
+              <div class="amenity-list">
+                <div class="amenity-item">
+                  <i class="bi bi-infinity"></i>
+                  <span>Piscina infinita vista al mar</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-moon"></i>
+                  <span>Pool bar con cócteles</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-thermometer-sun"></i>
+                  <span>Jacuzzi climatizado</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-umbrella"></i>
+                  <span>Cabañas VIP poolside</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Entretenimiento -->
+          <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="500">
+            <div class="amenity-category">
+              <h4><i class="bi bi-music-note"></i> Entretenimiento</h4>
+              <div class="amenity-list">
+                <div class="amenity-item">
+                  <i class="bi bi-music-note-beamed"></i>
+                  <span>Shows en vivo nocturnos</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-disc"></i>
+                  <span>DJ sets en beach club</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-controller"></i>
+                  <span>Salón de juegos VIP</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-book"></i>
+                  <span>Biblioteca con vista al mar</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-camera"></i>
+                  <span>Fotógrafo profesional</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-calendar-event"></i>
+                  <span>Eventos privados</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Servicios VIP -->
+          <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="600">
+            <div class="amenity-category">
+              <h4><i class="bi bi-star"></i> Servicios VIP</h4>
+              <div class="amenity-list">
+                <div class="amenity-item">
+                  <i class="bi bi-person-check"></i>
+                  <span>Mayordomo personal</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-car-front"></i>
+                  <span>Transfer privado helicopter</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-wifi"></i>
+                  <span>WiFi premium alta velocidad</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-shield-check"></i>
+                  <span>Seguridad 24/7</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-bag-check"></i>
+                  <span>Servicio de lavandería</span>
+                </div>
+                <div class="amenity-item">
+                  <i class="bi bi-gem"></i>
+                  <span>Concierge especializado</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- /Amenities Section -->
+
+    <!-- Suites Section -->
+    <section id="suites" class="menu section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Suites Exclusivas</h2>
+        <p>Nuestras 25 suites de lujo están diseñadas para ofrecer la máxima comodidad y sofisticación con vistas espectaculares al océano.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <div class="menu-filters isotope-filters mb-5">
+            <ul>
+              <li data-filter="*" class="filter-active">🌊 Todas las Suites</li>
+            </ul>
+          </div>
+
+          <div class="menu-container isotope-container row gy-4">
+
+            <!-- Ocean View Suite -->
+            <div class="col-lg-4 isotope-item filter-suite">
+              <div class="menu-item card shadow-sm p-3 mb-4 rounded-4 bg-dark">
+                <img src="public/images/ocean-view-suite.jpg" style="width: 100%; height: 300px; object-fit: cover;" alt="Ocean View Suite" class="menu-img img-fluid rounded-3 mb-3">
+                <div class="menu-content text-white">
+                  <h5 class="mb-1">Ocean View Suite</h5>
+                  <p class="text-light mb-2">85m² - Vista frontal al mar</p>
+                  <div class="d-flex align-items-center justify-content-between mb-2 text-light small">
+                    <span><i class="bi bi-people"></i> 2 huéspedes</span>
+                    <span><i class="bi bi-water"></i> Vista al océano</span>
+                    <span><i class="bi bi-geo-alt"></i> Terraza privada</span>
+                  </div>
+                  <div class="amenity-list-small mb-2">
+                    <small class="text-light">
+                      <i class="bi bi-check2"></i> Jacuzzi privado
+                      <i class="bi bi-check2"></i> Minibar premium
+                      <i class="bi bi-check2"></i> Mayordomo 24/7
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Beachfront Suite -->
+            <div class="col-lg-4 isotope-item filter-suite">
+              <div class="menu-item card shadow-sm p-3 mb-4 rounded-4 bg-dark">
+                <img src="public/images/beachfront-suite.jpg" style="width: 100%; height: 300px; object-fit: cover;" alt="Beachfront Suite" class="menu-img img-fluid rounded-3 mb-3">
+                <div class="menu-content text-white">
+                  <h5 class="mb-1">Beachfront Suite</h5>
+                  <p class="text-light mb-2">120m² - Acceso directo a playa</p>
+                  <div class="d-flex align-items-center justify-content-between mb-2 text-light small">
+                    <span><i class="bi bi-people"></i> 4 huéspedes</span>
+                    <span><i class="bi bi-house-door"></i> Acceso playa</span>
+                    <span><i class="bi bi-heart"></i> Romántica</span>
+                  </div>
+                  <div class="amenity-list-small mb-2">
+                    <small class="text-light">
+                      <i class="bi bi-check2"></i> Piscina privada
+                      <i class="bi bi-check2"></i> Deck exclusivo
+                      <i class="bi bi-check2"></i> Chef disponible
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Presidential Suite -->
+            <div class="col-lg-4 isotope-item filter-suite">
+              <div class="menu-item card shadow-sm p-3 mb-4 rounded-4 bg-dark">
+                <img src="public/images/presidential-suite.jpg" style="width: 100%; height: 300px; object-fit: cover;" alt="Presidential Suite" class="menu-img img-fluid rounded-3 mb-3">
+                <div class="menu-content text-white">
+                  <h5 class="mb-1">Presidential Suite</h5>
+                  <p class="text-light mb-2">200m² - Lujo absoluto</p>
+                  <div class="d-flex align-items-center justify-content-between mb-2 text-light small">
+                    <span><i class="bi bi-people"></i> 6 huéspedes</span>
+                    <span><i class="bi bi-gem"></i> Ultra lujo</span>
+                    <span><i class="bi bi-award"></i> Presidencial</span>
+                  </div>
+                  <div class="amenity-list-small mb-2">
+                    <small class="text-light">
+                      <i class="bi bi-check2"></i> 2 dormitorios
+                      <i class="bi bi-check2"></i> Sala privada
+                      <i class="bi bi-check2"></i> Helicopter pad
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sunset Penthouse -->
+            <div class="col-lg-6 isotope-item filter-suite">
+              <div class="menu-item card shadow-sm p-3 mb-4 rounded-4 bg-dark">
+                <img src="public/images/sunset-penthouse.jpg" style="width: 100%; height: 300px; object-fit: cover;" alt="Sunset Penthouse" class="menu-img img-fluid rounded-3 mb-3">
+                <div class="menu-content text-white">
+                  <h5 class="mb-1">Sunset Penthouse</h5>
+                  <p class="text-light mb-2">300m² - Nivel superior completo</p>
+                  <div class="d-flex align-items-center justify-content-between mb-2 text-light small">
+                    <span><i class="bi bi-people"></i> 8 huéspedes</span>
+                    <span><i class="bi bi-sunset"></i> Vista 360°</span>
+                    <span><i class="bi bi-building"></i> Penthouse</span>
+                  </div>
+                  <div class="amenity-list-small mb-2">
+                    <small class="text-light">
+                      <i class="bi bi-check2"></i> Terraza rooftop
+                      <i class="bi bi-check2"></i> Infinity pool
+                      <i class="bi bi-check2"></i> Bar privado
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Overwater Villa -->
+            <div class="col-lg-6 isotope-item filter-suite">
+              <div class="menu-item card shadow-sm p-3 mb-4 rounded-4 bg-dark">
+                <img src="public/images/overwater-villa.jpg" style="width: 100%; height: 300px; object-fit: cover;" alt="Overwater Villa" class="menu-img img-fluid rounded-3 mb-3">
+                <div class="menu-content text-white">
+                  <h5 class="mb-1">Overwater Villa</h5>
+                  <p class="text-light mb-2">150m² - Sobre el océano</p>
+                  <div class="d-flex align-items-center justify-content-between mb-2 text-light small">
+                    <span><i class="bi bi-people"></i> 2 huéspedes</span>
+                    <span><i class="bi bi-water"></i> Sobre agua</span>
+                    <span><i class="bi bi-star"></i> Única</span>
+                  </div>
+                  <div class="amenity-list-small mb-2">
+                    <small class="text-light">
+                      <i class="bi bi-check2"></i> Piso de cristal
+                      <i class="bi bi-check2"></i> Escalera al mar
+                      <i class="bi bi-check2"></i> Experiencia única
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section><!-- /Suites Section -->
+
+    <!-- Experiences Section -->
+    <section id="experiences" class="contact section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Experiencias Exclusivas</h2>
+        <p>Vive momentos únicos e irrepetibles con nuestras experiencias de lujo diseñadas para crear recuerdos inolvidables.</p>
