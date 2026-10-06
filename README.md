@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌴 Landing Pages · Turismo y Hospedaje
+# Landing Pages · Turismo y Hospedaje
 
 ### Landing pages responsivas de turismo: presentación, servicios, alojamiento, galería y contacto
 
@@ -10,27 +10,27 @@
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 [![GitHub Pages](https://img.shields.io/badge/Demo-GitHub%20Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://adrizzx.github.io/Landing-Pages/)
 
-### 🌐 [Ver todos los sitios en vivo](https://adrizzx.github.io/Landing-Pages/)
+### [Ver todos los sitios en vivo](https://adrizzx.github.io/Landing-Pages/)
 
 </div>
 
 ---
 
-## 📂 Sitios
+## Sitios
 
 | Sitio | Rubro | Demo | Tecnología |
 |---|---|---|---|
 | **Wild Camp** | Camping y aventura | [Abrir](https://adrizzx.github.io/Landing-Pages/wild-camp/) | HTML, CSS, JavaScript |
 | **Ocean Breeze Resort** | Resort de playa | [Abrir](https://adrizzx.github.io/Landing-Pages/ocean-breeze/) | HTML, JavaScript |
 
-## ✨ Características
+## Características
 
 - Diseño **responsive** para móvil, tablet y escritorio.
 - Secciones de héroe, servicios, habitaciones, galería, ubicación y contacto.
 - Interacciones con JavaScript (menú, animaciones y navegación suave).
 - Sin dependencias de compilación: se publican directamente como sitios estáticos.
 
-## 🚀 Ejecución local
+## Ejecución local
 
 Basta con abrir el `index.html` de cada carpeta en el navegador, o servir el repositorio:
 
