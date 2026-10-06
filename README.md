@@ -2,7 +2,7 @@
 
 # 🌴 Landing Pages · Turismo y Hospedaje
 
-### Sitios web responsivos para negocios turísticos: presentación, servicios, habitaciones, galería y contacto
+### Landing pages responsivas de turismo: presentación, servicios, alojamiento, galería y contacto
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/docs/Web/CSS)
@@ -20,8 +20,6 @@
 
 | Sitio | Rubro | Demo | Tecnología |
 |---|---|---|---|
-| **Paradise Lodge** | Hospedaje en la Amazonía | [Abrir](https://adrizzx.github.io/Landing-Pages/paradise-lodge/) | HTML, CSS, JavaScript |
-| **Sisa Warmi** | Hostal y descanso | [Abrir](https://adrizzx.github.io/Landing-Pages/sisa-warmi/) | Bootstrap 5 (plantilla *NiceRestaurant* adaptada) |
 | **Wild Camp** | Camping y aventura | [Abrir](https://adrizzx.github.io/Landing-Pages/wild-camp/) | HTML, CSS, JavaScript |
 | **Ocean Breeze Resort** | Resort de playa | [Abrir](https://adrizzx.github.io/Landing-Pages/ocean-breeze/) | HTML, JavaScript |
 
@@ -40,7 +38,13 @@ Basta con abrir el `index.html` de cada carpeta en el navegador, o servir el rep
 npx serve .
 ```
 
-## 📝 Créditos
+## Proyectos para clientes
+
+Los sitios desarrollados para una empresa de turismo tienen su propio repositorio:
+
+- [Paradise Lodge](https://github.com/Adrizzx/Paradise-Lodge)
+- [Sisa Warmi Lodge](https://github.com/Adrizzx/Sisa-Warmi)
+
+## Créditos
 
 - Diseño y desarrollo: **Marco Adrián Padilla Triviño** ([@Adrizzx](https://github.com/Adrizzx)).
-- *Sisa Warmi* parte de la plantilla [NiceRestaurant](https://bootstrapmade.com/nice-restaurant-bootstrap-template/) de BootstrapMade, adaptada en contenido y estructura (ver `sisa-warmi/CREDITOS-PLANTILLA.txt`).
